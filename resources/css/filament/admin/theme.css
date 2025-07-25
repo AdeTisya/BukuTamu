@@ -1,0 +1,27 @@
+body {
+    background-color: #f0fdf4;
+}
+
+.fi-main {
+    background-color: #f8fff5;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(46, 109, 48, 0.08);
+    padding: 24px;
+}
+
+.fi-sidebar {
+    background-color: #2e6d30 !important;
+    color: #fff;
+}
+
+.fi-header {
+    background-color: #2e6d30;
+    color: #fff;
+}
+
+.fi-widget, .fi-card {
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(46, 109, 48, 0.05);
+    margin-bottom: 16px;
+    padding: 16px;
+}
