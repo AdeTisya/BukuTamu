@@ -62,7 +62,6 @@ class DataTamuResource extends Resource
                 Tables\Columns\TextColumn::make('no_telp'),
                 Tables\Columns\TextColumn::make('alamat_asal'),
                 Tables\Columns\TextColumn::make('asal')->label('Asal'),
-                Tables\Columns\TextColumn::make('asal')->searchable(),
                 Tables\Columns\TextColumn::make('keperluan')->limit(20),
                 Tables\Columns\TextColumn::make('jam_datang')->dateTime(),
                 Tables\Columns\ImageColumn::make('foto')->circular(),

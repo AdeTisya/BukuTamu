@@ -268,7 +268,6 @@ class BukuTamuController extends Controller
                     $request->kecamatan ?? null,
                     $request->desa ?? null,
                 ]),
-                'asal' => $request->asal ?? null,
                 'no_telp' => $validatedData['no_telp'],
                 'jenis_kelamin' => $validatedData['jenis_kelamin'],
                 'keperluan' => $validatedData['keperluan'],
